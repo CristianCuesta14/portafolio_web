@@ -37,7 +37,7 @@ function Projects() {
               description="Este es mi portafolio web hecho con JavaScript vanilla,
               que muestra una selección de mis proyectos y habilidades en desarrollo web. He diseñado cada aspecto del portafolio con cuidado para asegurarme de que represente fielmente mi estilo y personalidad como desarrollador.              
               En mi portafolio, podrás explorar los proyectos en los que he trabajado, destacando mi experiencia en JavaScript, React.Js, Node.Js HTML y CSS, así como otras tecnologías relevantes."
-              ghLink="#"
+              ghLink="https://github.com/CristianCuesta14/portafolio_web"
               demoLink="#"
             />
           </Col>
