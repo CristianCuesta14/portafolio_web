@@ -294,7 +294,7 @@ button:focus {
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #dcd803 !important;
+  color: var(--sh--card) !important;
 }
 
 @media (max-width: 767px) {
