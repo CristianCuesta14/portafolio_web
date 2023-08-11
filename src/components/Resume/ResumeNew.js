@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import Particle from "../Particle";
+// import Particle from "../Particle";
 import pdf from "../../Assets/../Assets/Cvcristian.pdf";
 import certificate from "../../Assets/../Assets/Certificado.pdf";
 import hhs from "../../Assets/../Assets/hhs.pdf";
@@ -20,7 +20,7 @@ function ResumeNew() {
   return (
     <div>
       <Container fluid className="resume-section">
-        <Particle />
+        {/* <Particle /> */}
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"

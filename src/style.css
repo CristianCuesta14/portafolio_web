@@ -6,8 +6,8 @@ html {
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+    rgba(17, 16, 16, 0.500),
+    rgba(12, 10, 22, 0.500)
   );
 
   --imp-text-color: #007A00;
@@ -57,7 +57,7 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #000000;
+  background: #2d2d0b;
 }
 
 /* barra */
@@ -194,7 +194,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: var(--imp-text-color);
+  background: var(--sh--card);
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -375,7 +375,7 @@ button:focus {
   height: 100%;
   border-radius: 50%;
   background: #1FFD1F;
-  transition: 0.5s;
+  transition: 0.15s;
   transform: scale(0.9);
   z-index: -1;
 }
@@ -613,6 +613,11 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
+
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
 }
 
 .resume {
